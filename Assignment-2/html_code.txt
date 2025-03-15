@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Language Hub</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Interactive Language Hub</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#" class="login">Login</a></li>
+                <li><a href="#" class="join">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlock Your <br> Language Potential</h1>
+            <p>Engage with interactive games and exercises designed <br> for immersive language learning.</p>
+            <div class="buttons">
+                <a href="#" class="btn primary">Start Learning Today!</a>
+                <a href="#" class="btn secondary">Discover More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\macbookair.jpg" alt="Illustration of learning on a laptop">
+        </div>
+    </section>
+    <section class="learning-experience">
+        <div class="text-content">
+            <h2>Experience Language Learning Like Never Before</h2>
+            <p>Interactive games and exercises that make learning fun and effective.</p>
+        </div>
+        
+        <div class="cards">
+            <div class="card">
+                <div class="card-image">
+                    <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\tarsfor your skills.jpg" alt="Teacher engaging with students">
+                </div>
+                
+            <div class="card">
+                <div class="card-image">
+                    <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\inteactive learning languages.jpg" alt="Students learning together">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        
+        <div class="steps">
+            <div class="step">
+                <span class="step-number">1</span>
+                <div class="step-content">
+                    <h4>Step 1: Choose Your Language</h4>
+                    <p>Select from a variety of languages to start your learning adventure.</p>
+                </div>
+            </div>
+    
+            <div class="step">
+                <span class="step-number">2</span>
+                <div class="step-content">
+                    <h4>Step 2: Engage with Interactive Games</h4>
+                    <p>Play games that challenge your skills and reinforce your learning.</p>
+                </div>
+            </div>
+    
+            <div class="step">
+                <span class="step-number">3</span>
+                <div class="step-content">
+                    <h4>Step 3: Track Your Progress</h4>
+                    <p>Monitor your achievements and see how far you've come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\emily.jpg" alt="Emily Johnson">
+                <h4>Emily Johnson, Language Enthusiast</h4>
+                <p>“This platform has transformed my language learning experience!”</p>
+            </div>
+    
+            <div class="testimonial">
+                <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\michel smith.jpg" alt="Michael Smith">
+                <h4>Michael Smith, Educator</h4>
+                <p>“The interactive games make learning so much more enjoyable!”</p>
+            </div>
+    
+            <div class="testimonial">
+                <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\testemonial.jpg" alt="Sarah Lee">
+                <h4>Sarah Lee, Student</h4>
+                <p>“I love how engaging the exercises are. I learn without even realizing it!”</p>
+            </div>
+        </div>
+    </section>
+    <section class="signup-container">
+        <div class="signup-box">
+            <img src="images/user-icon.jpg" alt="User Icon" class="profile-img">
+            <h2>Sign Up Now</h2>
+            <p>Join our community of learners!</p>
+    
+            <button class="google-btn">
+                <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\path.jpg" alt="Google Icon"> Continue with Google
+            </button>
+    
+            <div class="divider">
+                <span></span> or <span></span>
+            </div>
+    
+            <form>
+                <label>Enter your name</label>
+                <input type="text" placeholder="Enter your name" required>
+    
+                <label>Enter your password</label>
+                <input type="password" placeholder="Enter your password" required>
+    
+                <button type="submit" class="email-btn">Continue with Email</button>
+            </form>
+    <p class="terms">By continuing you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></p>
+        </div>
+    </section>
+    <section class="contact-container">
+        <div class="contact-content">
+            <div class="contact-image">
+                <img src="C:\Users\Kiran\Pictures\Saved Pictures\New folder\contect.jpg" alt="Illustration of two people working">
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you!</p>
+    
+                <form>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+    
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+    
+                    <label for="message">Your Message</label>
+                    <textarea id="message" placeholder="Type your message here" required></textarea>
+    
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Creator’s Name</h4>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li>@InteractiveLang</li>
+                    <li>@InteractiveLang</li>
+                    <li>@InteractiveLang</li>
+                    <li>@InteractiveLang</li>
+                </ul>
+            </div>
+    
+            <div class="footer-section newsletter">
+                <h4>Subscribe to Our Newsletter</h4>
+                <p>Stay updated with the latest features and releases.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p class="privacy-text">By subscribing you agree to our <a href="#">Privacy Policy</a> and consent to receive updates.</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© 2024 Interactive Language Hub. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Settings</a>
+            </div>
+        </div>
+    </footer>    
+     </body>
+    </html>
